@@ -124,7 +124,7 @@ color:var(--primary);
 <form action="https://formsubmit.co/mdmusaddekhussain13@gmail.com"
       method="POST"
       class="contact-form"><input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="https://mdmusaddek.github.io/MD.Musaddek/"
+<input type="hidden" name="_next" value="https://mdmusaddek.github.io/MD.Musaddek/thankyou.html"
     >
     <input type="text"
            name="name"
@@ -215,7 +215,7 @@ const counterSpan = document.getElementById('visitor-count');
 // এটি একটি নির্ভরযোগ্য ওপেনসোর্স কাউন্টার এপিআই
 fetch('https://api.microlink.io/?url=https://github.com') 
   .then(() => {
-      // ডেমো হিসেবে বা লোকাল স্টোরেজ দিয়ে ভিজিটর ট্র্যাক (যেহেতু countapi প্রায়ই ডাউন থাকে)
+      // ডেমো হিসেবে বা লোকাল স্টোরেজ দিয়ে ভিজিটর ট্র্যাক (যেহেতু countapi প্রায়ই ডা�[...]
       let visits = localStorage.getItem('visits') || 0;
       visits = parseInt(visits) + 1;
       localStorage.setItem('visits', visits);
@@ -249,7 +249,7 @@ function checkCards() {
     });
 }
 window.addEventListener("scroll", checkCards);
-window.addEventListener("load", checkCards); // পেজ লোড হওয়ার সাথে সাথেই প্রথম কার্ডগুলো দেখাবে
+window.addEventListener("load", checkCards); // পেজ লোড হওয়ার সাথে সাথেই প্রথম কার্ডগুলো দেখাবে
 </script>
 </body>
 </html>
