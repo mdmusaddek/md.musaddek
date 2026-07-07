@@ -121,10 +121,9 @@ color:var(--primary);
 ">
 📨 Send Me a Message<p><b>↓</b></p> 
 </h4>
-<form action="https://formspree.io/f/mdmusaddekhussain13@gmail.com" method="POST">
-      class="contact-form"><input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="https://mdmusaddek.github.io/MD.Musaddek/thankyou.html"
-    >
+<form action="https://formspree.io/f/mdmusaddekhussain13@gmail.com" method="POST" class="contact-form">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://mdmusaddek.github.io/MD.Musaddek/thankyou.html">
     <input type="text"
            name="name"
            placeholder="👤 Your Name"
@@ -214,7 +213,7 @@ const counterSpan = document.getElementById('visitor-count');
 // এটি একটি নির্ভরযোগ্য ওপেনসোর্স কাউন্টার এপিআই
 fetch('https://api.microlink.io/?url=https://github.com') 
   .then(() => {
-      // ডেমো হিসেবে বা লোকাল স্টোরেজ দিয়ে ভিজিটর ট্র্যাক (যেহেতু countapi প্রায়ই ডা�[...]
+      // ডেমো হিসেবে বা লোকাল স্টোরেজ দিয়ে ভিজিটর ট্র্যাক (যেহেতু countapi প্রায়ই ডাউন থাকে)
       let visits = localStorage.getItem('visits') || 0;
       visits = parseInt(visits) + 1;
       localStorage.setItem('visits', visits);
