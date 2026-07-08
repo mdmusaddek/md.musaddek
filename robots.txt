@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://mdmusaddek.github.io/MD.Musaddek/sitemap.xml
